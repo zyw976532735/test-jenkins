@@ -1,0 +1,24 @@
+server:
+  port: 8111
+
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3310/wqziyuan_v2?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: root1234
+
+
+yx:
+  center:
+    appid: wqziyuan
+    secret: MDRkNjEwYzktNDY3OS00MjFkLWFiNTEt
+    center-domain: https://test.gateway.wqxuetang.com/gateway
+    user-center-domain: https://test.u.wqxuetang.com
+    pp-vr-check-url: https://appc.test.ayxsoft.top/manager
+    #鉴权验证地址
+    user-center-auth-uri: /oauth/authorize
+    #oss域名
+    oss-domain: https://resource-file-test.oss-cn-beijing.aliyuncs.com
+
+wqzy:
+  jenkins: ok
